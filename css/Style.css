@@ -2,12 +2,24 @@ header, nav{
     height: 3cm;
     width: 100%;
     background-color: green;
+    
 }
 
 nav>li{
     display: inline-block;
-    align-items: center;
     margin-top: 1.5cm;
     margin-left: 7%;
     margin-right: 7%;
+    /* A revoir de façon relative */
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+section>h1{
+    text-align: center;
+    color: black;
 }
