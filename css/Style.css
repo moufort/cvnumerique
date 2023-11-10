@@ -1,0 +1,13 @@
+header, nav{
+    height: 3cm;
+    width: 100%;
+    background-color: green;
+}
+
+nav>li{
+    display: inline-block;
+    align-items: center;
+    margin-top: 1.5cm;
+    margin-left: 7%;
+    margin-right: 7%;
+}
