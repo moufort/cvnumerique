@@ -1,0 +1,18 @@
+header, nav{
+    height: 3cm;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+
+nav{
+    position:fixed;
+}
+
+nav>a{
+    margin-top: 1.5cm;
+    text-decoration:none;
+}

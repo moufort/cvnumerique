@@ -1,0 +1,24 @@
+#Compétence{
+    display: flex;
+}
+
+#gauche{
+    flex: 1;
+    background-color: purple;
+    margin-right: 20px;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+#droite{
+    flex: 1;
+    background-color: yellow;
+    margin-left: 20px;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+#millieu{
+    flex: 2;
+    background-color: green;
+}

@@ -1,20 +1,3 @@
-header, nav{
-    height: 3cm;
-    width: 100%;
-    background-color: green;
-    display: flex;
-    
-}
-
-nav{
-    position:fixed;
-}
-
-nav>a{
-    flex: 1;
-    margin-top: 1.5cm;
-}
-
 section{
     height: 100%;
     width: 100%;
@@ -26,46 +9,37 @@ section>h1{
     color: black;
 }
 
-#Compétence{
-    display: flex;
-}
-
 section>section{
-    /* /* display: inline-block; */
     height: 50%;
-    /* flex : 1,1,1; */
     padding: 20px;
-}
-
-#gauche{
-    flex: 1;
-    background-color: purple;
-    margin-right: 20px;
-    border-bottom-right-radius: 20%;
-    border-top-right-radius: 20%;
-}
-
-#droite{
-    flex: 1;
-    background-color: yellow;
-    margin-left: 20px;
-    border-bottom-left-radius: 20%;
-    border-top-left-radius: 20%;
-}
-
-#millieu{
-    flex: 2;
-    background-color: green;
 }
 
 section>section>li{
     display: flex;
 }
 
-#image{
-    height: 20%;
-    width: 50%;
-    background-color: black;
+#Accueil{   
+    background-color: lightblue;
+}
+
+#Accueil>section{
+    position: absolute; 
+    background-color: chocolate;
+    width: 40%;
+    left: 10%;
+}
+
+.profil{
+    position: absolute; 
+    width: 20%;
+    height: auto;
+    right: 10%;
+}
+
+#Accueil>a{
+    position: absolute; 
+    left: 45%;
+    bottom: 10%;
 }
 
 #parcours{
