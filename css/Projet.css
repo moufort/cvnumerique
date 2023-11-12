@@ -1,0 +1,7 @@
+.projet1, .projet2, .projet3, .projet4, .projet5{
+    display: none;
+}
+
+.active{
+    display: block;
+}

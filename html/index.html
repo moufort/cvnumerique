@@ -2,16 +2,18 @@
     <head>
         <title>CV Numérique</title>
         <link href="../css/Style.css" rel="stylesheet">
+        <link href="../css/Projet.css" rel="stylesheet">
+        <script src="../javascript/ChangeProjet.js"></script>
     </head>
 
     <header>
             <nav>
-                <li><a href="#Accueil">Accueil</a></li>
-                <li><a href="#Presentation">Presentation</a></li>
-                <li><a href="#Compétence">Compétence et Qualité</a></li>
-                <li><a href="#Formation">Formation</a></li>
-                <li><a href="#Projet">Projet</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <a href="#Accueil">Accueil</a>
+                <a href="#Presentation">Presentation</a>
+                <a href="#Compétence">Compétence et Qualité</a>
+                <a href="#Formation">Formation</a>
+                <a href="#Projet">Projet</a>
+                <a href="#Contact">Contact</a>
             </nav>
     </header>
 
@@ -20,19 +22,18 @@
         <!-- Section 1 : Accueil -->
 
         <section id="Accueil">
-            <h1>E-Portfolio</h1>
-            <p>CV</p>
-        </section>
-        
 
-        <!-- Section 1 : Presentation -->
+            <section>
+                <h1>Quentin Moutté</h1>
+                <h2>But 2 informatique</h2>
+                <p>Je m'appelle Quentin et je suis en 2éme année de BUT informatique.</br>
+                    Je suis actuellement à la recherche d'un stage en développement application et web.
+                </p>
+            </section>
 
-        <section id="Presentation">
-            <h1>Quentin Moutté</h1>
-            <h2>But 2 informatique</h2>
-            <p>Je m'appelle Quentin et je suis en 2éme année de BUT informatique</p>
-            
-            <div></div><!-- à remplacer par image -->
+            <div id="image"></div><!-- à remplacer par image -->
+
+            <Button>Obtenir mon CV</Button>
         </section>
 
         <!-- Section 2 : Compétence et Qualité -->
@@ -56,37 +57,39 @@
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Autre truc 1</p>
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Autre truc 2</p>
                 </li>
 
             </section>
+
+            <section id="millieu"></section>
 
             <section id="droite">
                 <h1>Qualité</h1>
 
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Travail d'équipe</p>
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Communication</p>
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Détermine</p>
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Autre truc 1</p>
                 </li>
                 <li>
                     <img src="" alt="">
-                    <p></p>
+                    <p>Autre truc 2</p>
                 </li>
                 
             </section>
@@ -97,8 +100,12 @@
 
         <section id="Formation">
             <h1>Formation</h1>
-            <p>Bac</p>
-            <p></p>
+            <div id="parcours">
+                <!-- <div class="ligne-traversant"></div> -->
+                <p>BAC</p>
+                <p>BUT</p>
+            </div>
+            
         </section>
 
         <!-- Section 4 : Projet -->
@@ -106,29 +113,38 @@
         <section id="Projet">
             <h1>Projet</h1>
 
-            <select name="" id="">
-                <option value="" selected>Projet 1</option>
-                <option value="">Projet 2</option>
-                <option value="">Projet 3</option>
-                <option value="">Projet 4</option>
-                <option value="">Projet 5</option>
-            </select>
-        </section>
+            <ul><button  onclick="changeProjet(1)">Mini projet Agile</button></ul>
+            <ul><button  onclick="changeProjet(2)">Application d’échange internationale</button></ul>
+            <ul><button  onclick="changeProjet(3)">Base de donnée</button></ul>
+            <ul><button  onclick="changeProjet(4)">Plateforme de covoiturage en ligne</button></ul>
+            <ul><button  onclick="changeProjet(5)">Jeu ludopédagogique</button></ul>
 
-        <!-- Section 5 : Contact -->
+            <div id="projet1" class="projet1 active">
+                <p>Projet 1</p>
+            </div>
+            <div id="projet2" class="projet2">
+                <p>Projet 2</p>
+            </div>
+            <div id="projet3" class="projet3">
+                <p>Projet 3</p>
+            </div>
+            <div id="projet4" class="projet4">
+                <p>Projet 4</p>
+            </div>
+            <div id="projet5" class="projet5">
+                <p>Projet 5</p>
+            </div>
 
-        <section id="Contact">
-            <h1>Contact</h1>
-            <!-- Peut etre pour le footer -->
-            <p>Téléphone</p>
-            <p>Mail</p>
-            <p>Linkedin</p>
         </section>
 
         
     </body>
 
     <footer>
+        <h1>Contact</h1>
 
+        <ul><p>Téléphone</p></ul>
+        <ul><p>Mail</p></ul>
+        <ul><p>Linkedin</p></ul>
     </footer>
 </html>

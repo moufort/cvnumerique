@@ -2,15 +2,17 @@ header, nav{
     height: 3cm;
     width: 100%;
     background-color: green;
+    display: flex;
     
 }
 
-nav>li{
-    display: inline-block;
+nav{
+    position:fixed;
+}
+
+nav>a{
+    flex: 1;
     margin-top: 1.5cm;
-    margin-left: 7%;
-    margin-right: 7%;
-    /* A revoir de façon relative */
 }
 
 section{
@@ -26,30 +28,59 @@ section>h1{
 
 #Compétence{
     display: flex;
-    justify-content: space-between;
 }
 
 section>section{
-    /* display: inline-block;
-    height: 100%;
-    width: 40%; */
-    flex : 1;
+    /* /* display: inline-block; */
+    height: 50%;
+    /* flex : 1,1,1; */
     padding: 20px;
 }
 
 #gauche{
+    flex: 1;
     background-color: purple;
     margin-right: 20px;
     border-bottom-right-radius: 20%;
     border-top-right-radius: 20%;
 }
+
 #droite{
+    flex: 1;
     background-color: yellow;
     margin-left: 20px;
     border-bottom-left-radius: 20%;
     border-top-left-radius: 20%;
 }
 
+#millieu{
+    flex: 2;
+    background-color: green;
+}
+
 section>section>li{
     display: flex;
+}
+
+#image{
+    height: 20%;
+    width: 50%;
+    background-color: black;
+}
+
+#parcours{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.ligne-traversant {
+    position:static;
+    top: 50%; /* Positionnez la ligne au milieu du bloc */
+    left: 0;
+    width: 100%; /* La ligne occupe toute la largeur du bloc */
+    border-top: 2px solid black; /* Épaisseur et couleur de la ligne */
+    transform: translateY(-50%); /* Ajuste la position verticale pour centrer */
 }
