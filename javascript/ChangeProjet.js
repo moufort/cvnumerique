@@ -7,3 +7,13 @@ function changeProjet(sectionNumber) {
     // Afficher la section sélectionnée
     document.getElementById('projet' + sectionNumber).classList.add('active');
 }
+
+function changeFormation(sectionNumber) {
+    // Masquer toutes les sections
+    document.querySelectorAll('.formation1, .formation2').forEach(function(section) {
+        section.classList.remove('active');
+    });
+
+    // Afficher la section sélectionnée
+    document.getElementById('formation' + sectionNumber).classList.add('active');
+}

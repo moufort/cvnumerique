@@ -2,9 +2,10 @@
     <head>
         <title>CV Numérique</title>
         <link href="../css/Style.css" rel="stylesheet">
-        <link href="../css/Projet.css" rel="stylesheet">
         <link href="../css/Competence.css" rel="stylesheet">
         <link href="../css/header.css" rel="stylesheet">
+        <link href="../css/Formation.css" rel="stylesheet">
+        <link href="../css/Projet.css" rel="stylesheet">
         <script src="../javascript/ChangeProjet.js"></script>
     </head>
 
@@ -104,8 +105,20 @@
             <h1>Formation</h1>
             <div id="parcours">
                 <!-- <div class="ligne-traversant"></div> -->
-                <p>BAC</p>
-                <p>BUT</p>
+                <button  onclick="changeFormation(1)">BAC</button>
+                <button  onclick="changeFormation(2)">BUT</button>
+            </div>
+
+            <div id="formation1" class="formation1 active">
+                <h2>BAC</h2>
+                <h3>2022</h3>
+                <p>BAC mention bien</p>
+            </div>
+
+            <div id="formation2" class="formation2">
+                <h2>BUT informatique</h2>
+                <h3>2022-aujourd'hui</h3>
+                <p>2éme année du BUT Info</p>
             </div>
             
         </section>

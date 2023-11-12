@@ -46,7 +46,7 @@ section>section>li{
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
 }
 

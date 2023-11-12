@@ -9,7 +9,8 @@ header, nav{
 }
 
 nav{
-    position:fixed;
+    position:sticky;
+    top: 10%;
 }
 
 nav>a{
