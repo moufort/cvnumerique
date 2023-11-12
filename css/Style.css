@@ -23,3 +23,33 @@ section>h1{
     text-align: center;
     color: black;
 }
+
+#Compétence{
+    display: flex;
+    justify-content: space-between;
+}
+
+section>section{
+    /* display: inline-block;
+    height: 100%;
+    width: 40%; */
+    flex : 1;
+    padding: 20px;
+}
+
+#gauche{
+    background-color: purple;
+    margin-right: 20px;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+#droite{
+    background-color: yellow;
+    margin-left: 20px;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+section>section>li{
+    display: flex;
+}
