@@ -1,0 +1,14 @@
+footer{
+    display: inline-block;
+    width: 100%;
+    background-color: green;
+}
+
+footer>h1{
+    text-align: center;
+}
+
+footer>ul{
+    display: flex;
+    justify-content: space-around;
+}

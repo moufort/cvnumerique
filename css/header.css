@@ -1,5 +1,5 @@
 header, nav{
-    height: 3cm;
+    height: 1.5cm;
     width: 100%;
     background-color: green;
     display: flex;
@@ -14,6 +14,6 @@ nav{
 }
 
 nav>a{
-    margin-top: 1.5cm;
+    margin-top: 0.5cm;
     text-decoration:none;
 }

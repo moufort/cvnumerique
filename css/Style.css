@@ -49,12 +49,3 @@ section>section>li{
     justify-content: space-around;
     flex: 1;
 }
-
-.ligne-traversant {
-    position:static;
-    top: 50%; /* Positionnez la ligne au milieu du bloc */
-    left: 0;
-    width: 100%; /* La ligne occupe toute la largeur du bloc */
-    border-top: 2px solid black; /* Épaisseur et couleur de la ligne */
-    transform: translateY(-50%); /* Ajuste la position verticale pour centrer */
-}

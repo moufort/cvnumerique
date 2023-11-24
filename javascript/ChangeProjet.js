@@ -17,3 +17,13 @@ function changeFormation(sectionNumber) {
     // Afficher la section sélectionnée
     document.getElementById('formation' + sectionNumber).classList.add('active');
 }
+
+function changeComp(sectionNumber) {
+    // Masquer toutes les sections
+    document.querySelectorAll('.comp1, .comp2, .comp3, .comp4, .comp5, .comp6').forEach(function(section) {
+        section.classList.remove('active');
+    });
+
+    // Afficher la section sélectionnée
+    document.getElementById('comp' + sectionNumber).classList.add('active');
+}

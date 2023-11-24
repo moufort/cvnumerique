@@ -37,3 +37,20 @@
     grid-template-columns: 30% 10% 60%;
     background-color: yellow;
 }
+
+.imageProjet{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+.projetTexte{ 
+    flex: 1;
+    background-color: blue;
+}
+
+.projet>.active{
+    display: flex;
+    height: 100%;
+}
