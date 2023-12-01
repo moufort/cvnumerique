@@ -2,13 +2,49 @@
     display: flex;
 }
 
+/* SECTION GAUCHE */
+
 #gauche{
     flex: 1;
     background-color: purple;
     margin-right: 20px;
     border-bottom-right-radius: 20%;
     border-top-right-radius: 20%;
+    height: 100%;
 }
+
+#gauche>li{
+    display: flex;
+    justify-content: space-between;
+}
+
+#gauche>li>img{
+    height: 20px;
+    width: auto;
+}
+
+/* #gauche>li>p{
+    margin-bottom: 5px;
+} */
+
+/* SECTION MILLIEU */
+
+#millieu{
+    flex: 2;
+    background-color: green;
+    height: 10.65cm;
+}
+
+#millieu>div{
+    display: none;
+}
+
+#millieu>.active{
+    display: block;
+    height: 100%;
+}
+
+/* SECTION DROITE */
 
 #droite{
     flex: 1;
@@ -16,9 +52,4 @@
     margin-left: 20px;
     border-bottom-left-radius: 20%;
     border-top-left-radius: 20%;
-}
-
-#millieu{
-    flex: 2;
-    background-color: green;
 }

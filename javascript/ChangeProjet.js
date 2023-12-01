@@ -27,3 +27,12 @@ function changeComp(sectionNumber) {
     // Afficher la section sélectionnée
     document.getElementById('comp' + sectionNumber).classList.add('active');
 }
+
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", function () {
+  const offset = window.pageYOffset;
+
+  if (offset > 90) nav.classList.add("scroll");
+  else nav.classList.remove("scroll");
+});

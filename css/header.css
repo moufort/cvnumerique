@@ -1,19 +1,39 @@
-header, nav{
+header{
+    position: fixed;
     height: 1.5cm;
     width: 100%;
-    background-color: green;
-    display: flex;
     justify-content: space-around;
     z-index: 1;
-    
+    top: 0;
+    left: 0;
 }
 
 nav{
-    position:sticky;
-    top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 nav>a{
+    grid-column: 1;
+    height: 40px;
+    width: 40px;
+    margin-left: 30%;
+    margin-top: 10px;
+    align-self: center;
+}
+
+nav>a>img{
+    height: 100%;
+}
+
+nav>div{
+    grid-column: 2;
+    display: flex;
     margin-top: 0.5cm;
+    justify-content: space-around;
+}
+
+nav>div>a{
+    color: white;
     text-decoration:none;
 }

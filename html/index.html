@@ -2,11 +2,13 @@
     <head>
         <title>CV Numérique</title>
         <link href="../css/Style.css" rel="stylesheet">
-        <link href="../css/Competence.css" rel="stylesheet">
         <link href="../css/header.css" rel="stylesheet">
+        <link href="../css/Accueil.css" rel="stylesheet">
+        <link href="../css/Competence.css" rel="stylesheet">
         <link href="../css/Formation.css" rel="stylesheet">
         <link href="../css/Projet.css" rel="stylesheet">
         <link href="../css/Contact.css" rel="stylesheet">
+        
         <script src="../javascript/ChangeProjet.js"></script>
     </head>
 
@@ -14,23 +16,24 @@
 
     <header>
         <nav>
-            <a href="#Accueil">Accueil</a>
-            <a href="#Compétence">Compétence et Qualité</a>
-            <a href="#Formation">Formation</a>
-            <a href="#Projet">Projet</a>
-            <a href="#Contact">Contact</a>
+            <a href="#Accueil"><img src="../image/home.png" alt=""></a>
+            <div>
+                <a href="#Compétence">Compétence et Qualité</a>
+                <a href="#Formation">Formation</a>
+                <a href="#Projet">Projet</a>
+                <a href="#Contact">Contact</a>
+            </div>
         </nav>
     </header>
-
+        
     <body>
 
         <!-- Section 1 : Accueil -->
 
         <section id="Accueil">
-            <h1>Quentin Moutté</h1>
                 <section>
-                    <h2>But 2 informatique</h2>
-                    <p>Je m'appelle Quentin et je suis en 2éme année de BUT informatique.</br>
+                    <h2>Quentin Moutté</h2>
+                    <p>Je suis un étudiant en 2éme année de BUT informatique.</br>
                         Je suis actuellement à la recherche d'un stage en développement application et web.
                     </p>
                 </section>
@@ -52,12 +55,12 @@
                     <p>Algorithmie</p>
                 </li>
                 <li>
-                    <img src="" alt="">
                     <p>Développement Web</p>
+                    <img src="../image/web.png" alt="">
                 </li>
                 <li>
-                    <img src="" alt="">
                     <p>Base de Donnée</p>
+                    <img src="../image/database.jpg" alt="">
                 </li>
                 <li>
                     <img src="" alt="">
@@ -71,13 +74,38 @@
             </section>
 
             <section id="millieu">
-                <div id="comp1" class="comp1 active"></div>
-                <div id="comp2" class="comp2 active"></div>
-                <div id="comp3" class="comp3 active"></div>
+                <div id="comp1" class="comp1 active">
+                    <h2>Algorithmie</h2>
+                    <p>Je sais faire de l'Algorithmie, en effet durand ma formation j'ai appris a crée un programme
+                        dans plusieurs language tel que java, ou en c.
+                    </p>
+                </div>
+                <div id="comp2" class="comp2">
+                    <h2>Développement Web</h2>
+                    <p>
+                    </p>
+                </div>
+                <div id="comp3" class="comp3">
+                    <h2>Base de Donnée</h2>
+                    <p>
+                    </p>
+                </div>
 
-                <div id="comp4" class="comp4 active"></div>
-                <div id="comp5" class="comp5 active"></div>
-                <div id="comp6" class="comp6 active"></div>
+                <div id="comp4" class="comp4">
+                    <h2>Travail d'équipe</h2>
+                    <p>
+                    </p>
+                </div>
+                <div id="comp5" class="comp5">
+                    <h2>Communication</h2>
+                    <p>
+                    </p>
+                </div>
+                <div id="comp6" class="comp6">
+                    <h2>Détermine</h2>
+                    <p>
+                    </p>
+                </div>
             </section>
 
             <section id="droite">
@@ -111,8 +139,14 @@
         <!-- Section 3 : Formation -->
 
         <section id="Formation" class="Formation">
+            <!-- <section> -->
+            
+            
             <h1>Formation</h1>
             <div class="parcours">
+                <div class="fleche"></div>
+                <p>></p>
+                
                 <button  onclick="changeFormation(1)">BAC</button>
                 <button  onclick="changeFormation(2)">BUT</button>
             </div>
@@ -132,6 +166,7 @@
                 <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT A de Villeneuve d'Asq
                 </p>
             </div>
+        <!-- </section>  -->
             
         </section>
 
@@ -143,11 +178,11 @@
             <div class="test">
 
                 <div class="Button">
-                    <button  onclick="changeProjet(1)">Mini projet Agile</button>
-                    <button  onclick="changeProjet(2)">Application d’échange internationale</button>
-                    <button  onclick="changeProjet(3)">Base de donnée</button>
-                    <button  onclick="changeProjet(4)">Plateforme de covoiturage en ligne</button>
-                    <button  onclick="changeProjet(5)">Jeu ludopédagogique</button>
+                    <button  onclick="changeProjet(1)"><!--Mini projet Agile--></button>
+                    <button  onclick="changeProjet(2)"><!--Application d’échange internationale--></button>
+                    <!-- <button  onclick="changeProjet(3)">Base de donnée</button> -->
+                    <button  onclick="changeProjet(4)"><!--Plateforme de covoiturage en ligne--></button>
+                    <!-- <button  onclick="changeProjet(5)">Jeu ludopédagogique</button> -->
                 </div>
 
                 <div class="projet">
@@ -183,7 +218,7 @@
                         <img src="" alt="" class="imageProjet">
                     </div>
 
-                    <div id="projet3" class="projet3">
+                    <!-- <div id="projet3" class="projet3">
                         <div class="projetTexte">
                             <h2>Base de donnée</h2>
                             <h3>Semestre 2</h3>
@@ -196,7 +231,7 @@
                         </div>
 
                         <img src="" alt="" class="imageProjet">
-                    </div>
+                    </div> -->
 
                     <div id="projet4" class="projet4">
                         <div class="projetTexte">
@@ -209,10 +244,10 @@
                             <a href="" download=""><button>Télécharger le Projet</button></a>
                         </div>
 
-                        <img src="" alt="" class="imageProjet">
+                        <img src="../image/Thales.png" alt="" class="imageProjet">
                     </div>
 
-                    <div id="projet5" class="projet5">
+                    <!-- <div id="projet5" class="projet5">
                         <div class="projetTexte">
                             <h2>Jeu ludopédagogique</h2>
                             <h3>Semestre 1</h3>
@@ -224,7 +259,7 @@
                         </div>
 
                         <img src="" alt="" class="imageProjet">
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -236,7 +271,7 @@
 
     <!-- Footer : Contact -->
 
-    <footer>
+    <footer id = "Contact">
         <h1>Contact</h1>
 
         <ul>
