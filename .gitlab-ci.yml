@@ -11,9 +11,9 @@ deploy:
   tags:
     - docker
 
-pages:
-  script:
-    - echo "Domain: http://Quentin-Moutte.fr" >> public/.gitlab-ci.yml
-  only:
-    - master
+#pages:
+#  script:
+#    - echo "Domain: http://Quentin-Moutte.fr" >> public/.gitlab-ci.yml
+#  only:
+#    - master
 
