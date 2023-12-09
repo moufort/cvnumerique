@@ -1,22 +1,22 @@
 <html>
     <head>
         <title>CV Numérique</title>
-        <link href="../css/Style.css" rel="stylesheet">
-        <link href="../css/header.css" rel="stylesheet">
-        <link href="../css/Accueil.css" rel="stylesheet">
-        <link href="../css/Competence.css" rel="stylesheet">
-        <link href="../css/Formation.css" rel="stylesheet">
-        <link href="../css/Projet.css" rel="stylesheet">
-        <link href="../css/Contact.css" rel="stylesheet">
+        <link href="css/Style.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/Accueil.css" rel="stylesheet">
+        <link href="css/Competence.css" rel="stylesheet">
+        <link href="css/Formation.css" rel="stylesheet">
+        <link href="css/Projet.css" rel="stylesheet">
+        <link href="css/Contact.css" rel="stylesheet">
         
-        <script src="../javascript/ChangeProjet.js"></script>
+        <script src="javascript/ChangeProjet.js"></script>
     </head>
 
     <!-- Navigation -->
 
     <header>
         <nav>
-            <a href="#Accueil"><img src="../image/home.png" alt=""></a>
+            <a href="#Accueil"><img src="image/home.png" alt=""></a>
             <div>
                 <a href="#Compétence">Compétence et Qualité</a>
                 <a href="#Formation">Formation</a>
@@ -38,102 +38,59 @@
                     </p>
                 </section>
 
-                <img src="../image/IMG_1114.jpg" alt="" class="profil">
+                <img src="image/IMG_1114.jpg" alt="" class="profil">
             
             <a href="https://drive.google.com/file/d/1erO0KZfPvm_hm9doJCjzQ6WVHX_oBDyF/view?usp=drive_link" download="CV"><button>Obtenir mon CV</button></a>
         </section>
 
         <!-- Section 2 : Compétence et Qualité -->
 
-        <section id="Compétence">
-
-            <section id="gauche">
+        <section id="Compétence2">
+            <section class="Comp">
                 <h1>Compétence</h1>
 
-                <li>
-                    <img src="" alt="">
-                    <p>Algorithmie</p>
-                </li>
-                <li>
-                    <p>Développement Web</p>
-                    <img src="../image/web.png" alt="">
-                </li>
-                <li>
-                    <p>Base de Donnée</p>
-                    <img src="../image/database.jpg" alt="">
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Autre truc 1</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Autre truc 2</p>
-                </li>
-
-            </section>
-
-            <section id="millieu">
-                <div id="comp1" class="comp1 active">
+                <div>
+                    <!-- <img src="" alt=""> -->
                     <h2>Algorithmie</h2>
-                    <p>Je sais faire de l'Algorithmie, en effet durand ma formation j'ai appris a crée un programme
+                    <p>Je sais faire de l'Algorithmie, en effet durant ma formation j'ai appris a crée un programme
                         dans plusieurs language tel que java, ou en c.
                     </p>
                 </div>
-                <div id="comp2" class="comp2">
+                <div>
                     <h2>Développement Web</h2>
-                    <p>
+                    <p>J'ai appris à utiliser plusieurs outils comme le html ou le css afin de développer des sites,
+                        comme ce portfolio.
                     </p>
                 </div>
-                <div id="comp3" class="comp3">
+                <div>
                     <h2>Base de Donnée</h2>
-                    <p>
-                    </p>
-                </div>
-
-                <div id="comp4" class="comp4">
-                    <h2>Travail d'équipe</h2>
-                    <p>
-                    </p>
-                </div>
-                <div id="comp5" class="comp5">
-                    <h2>Communication</h2>
-                    <p>
-                    </p>
-                </div>
-                <div id="comp6" class="comp6">
-                    <h2>Détermine</h2>
-                    <p>
+                    <p>Je sais utilisé des base de donnée comme postgres, en ayant appris des languages comme le SQL.
                     </p>
                 </div>
             </section>
 
-            <section id="droite">
+            <section class="Qual">
                 <h1>Qualité</h1>
 
-                <li>
-                    <img src="" alt="">
-                    <p>Travail d'équipe</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Communication</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Détermine</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Autre truc 1</p>
-                </li>
-                <li>
-                    <img src="" alt="">
-                    <p>Autre truc 2</p>
-                </li>
-                
+                <div>
+                    <!-- <img src="" alt=""> -->
+                    <p>Je sais faire de l'Algorithmie, en effet durant ma formation j'ai appris a crée un programme
+                        dans plusieurs language tel que java, ou en c.
+                    </p>
+                    <h2>Travail d'équipe</h2>
+                </div>
+                <div>
+                    <p>J'ai appris à utiliser plusieurs outils comme le html ou le css afin de développer des sites,
+                        comme ce portfolio.
+                    </p>
+                    <h2>Communication</h2>
+                </div>
+                <div>
+                    <p>Je sais utilisé des base de donnée comme postgres, en ayant appris des languages comme le SQL.
+                    </p>
+                    <h2>truc troc</h2>
+                </div>
             </section>
-
         </section>
 
         <!-- Section 3 : Formation -->
@@ -151,21 +108,23 @@
                 <button  onclick="changeFormation(2)">BUT</button>
             </div>
 
-            <div id="formation1" class="formation1 active">
-                <h2>BAC</h2>
-                <h3>2022</h3>
-                <p>J'ai obtenu mon bac avec la mention assez bien.<br>
-                    J'avais les spécialité Physique-Chimie, Science Économie et Sociale en terminal, en plus de la spécialité <br>
-                    mathématique en 1ére.
-                </p>
+            <div class="formationTexte">
+                <div>
+                    <h3>2022</h3>
+                    <p>J'ai obtenu mon bac avec la mention assez bien.<br>
+                        J'avais les spécialité Physique-Chimie, Science Économie et Sociale en terminal, en plus de la spécialité <br>
+                        mathématique en 1ére.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>2022-aujourd'hui</h3>
+                    <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT A de Villeneuve d'Asq
+                    </p>
+                </div>
             </div>
 
-            <div id="formation2" class="formation2">
-                <h2>BUT informatique</h2>
-                <h3>2022-aujourd'hui</h3>
-                <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT A de Villeneuve d'Asq
-                </p>
-            </div>
+            
         <!-- </section>  -->
             
         </section>
@@ -194,11 +153,11 @@
                             <p>Le Mini projet agile était un projet visant à nous apprendre les méthodes de développement agile.<br>
                                 On était en groupe de 4 ou 5 personne et l'on devait coder un jeu en groupe en 3 jours.<br>
                             </p>
-                            <a href="" download=""><button>Télécharger le Projet</button></a>
+                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
                         </div>
                         
 
-                        <img src="" alt="" class="imageProjet">
+                        <img src="image/agile.png" alt="" class="imageProjet">
                     </div>
 
                     <div id="projet2" class="projet2">
@@ -212,10 +171,10 @@
                                 Et il y a un coté professeur pour mettre en lien les élèves ayant le plus d'affinité.<br>
 
                             </p>
-                            <a href="" download=""><button>Télécharger le Projet</button></a>
+                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
                         </div>
 
-                        <img src="" alt="" class="imageProjet">
+                        <img src="image/app.png" alt="" class="imageProjet">
                     </div>
 
                     <!-- <div id="projet3" class="projet3">
@@ -241,10 +200,10 @@
                                 Nous étions en groupe de 3 ou 4 et nous devions crée un site pour une entreprise fictive<br>
                                 qui voulait que ses employés se déplace en covoiturage.<br>
                             </p>
-                            <a href="" download=""><button>Télécharger le Projet</button></a>
+                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
                         </div>
 
-                        <img src="../image/Thales.png" alt="" class="imageProjet">
+                        <img src="image/Thales.png" alt="" class="imageProjet">
                     </div>
 
                     <!-- <div id="projet5" class="projet5">

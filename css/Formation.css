@@ -1,18 +1,34 @@
-.formation1, .formation2{
+/* .formation1, .formation2{
     display: none;
+} */
+
+.formationTexte{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.Formation>.active>h2, .Formation>.active>h3, .Formation>.active>p{
+.formationTexte>div>h3{
     text-align: center;
+    color: green;
+    /* background-color: aqua; */
 }
 
-.Formation>.active>h2{
+.formationTexte>div>p{
+    text-align: justify;
+}
+
+/* .Formation>.active>h2, .Formation>.active>h3, .Formation>.active>p{
+    text-align: center;
+} */
+
+/* .Formation>.active>h2{
     font-size: 300%;
 }
 
 .Formation>.active>h3{
     font-size: 200%;
-}
+} */
 
 .parcours{
     display: flex;

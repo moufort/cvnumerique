@@ -30,7 +30,7 @@ body>section:nth-child(odd){
 }
 
 body>section:nth-child(even){
-    background-color: #5e17eb;
+    background-color: lightgrey;
 }
 
 footer, header{

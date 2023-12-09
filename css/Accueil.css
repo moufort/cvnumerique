@@ -1,6 +1,6 @@
 #Accueil{   
     position: relative;
-    background-color: gray;
+    background-color: lightgray;
     height: 100%;
     background-image: url("../image/fond_ecran.jpeg");
     background-size: contain;
@@ -10,7 +10,6 @@
 
 #Accueil>section{
     position: absolute; 
-    /* background-color: chocolate; */
     height: 20%;
     width: 20%;
     right: 2.5%;
