@@ -1,2 +1,12 @@
-# The Docker image that will be used to build your app
-image: Dockerfile
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - docker build -t mon-site-web .
+    - docker run -d -p 8080:80 mon-site-web
+  only:
+    - main  # Déploie uniquement lorsque des modifications sont apportées à la branche master
+  tags:
+    - docker
