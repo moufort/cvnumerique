@@ -10,3 +10,10 @@ deploy:
     - main  # Déploie uniquement lorsque des modifications sont apportées à la branche master
   tags:
     - docker
+
+pages:
+  script:
+    - echo "Domain: http://Quentin-Moutte.fr" >> public/.gitlab-ci.yml
+  only:
+    - master
+
