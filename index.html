@@ -45,7 +45,7 @@
 
         <!-- Section 2 : Compétence et Qualité -->
 
-        <section id="Compétence2">
+        <section id="Compétence">
             <section class="Comp">
                 <h1>Compétence</h1>
 
@@ -97,133 +97,98 @@
 
         <section id="Formation" class="Formation">
             <!-- <section> -->
-            
-            
-            <h1>Formation</h1>
-            <div class="parcours">
-                <div class="fleche"></div>
-                <p>></p>
-                
-                <button  onclick="changeFormation(1)">BAC</button>
-                <button  onclick="changeFormation(2)">BUT</button>
-            </div>
-
-            <div class="formationTexte">
-                <div>
-                    <h3>2022</h3>
-                    <p>J'ai obtenu mon bac avec la mention assez bien.<br>
-                        J'avais les spécialité Physique-Chimie, Science Économie et Sociale en terminal, en plus de la spécialité <br>
-                        mathématique en 1ére.
-                    </p>
+                <h1>Formation</h1>
+                <div class="parcours">
+                    <div class="fleche"></div>
+                    <p>></p>
+                    
+                    <button  onclick="changeFormation(1)">BAC</button>
+                    <button  onclick="changeFormation(2)">BUT</button>
                 </div>
 
-                <div>
-                    <h3>2022-aujourd'hui</h3>
-                    <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT A de Villeneuve d'Asq
-                    </p>
-                </div>
-            </div>
+                <div class="formationTexte">
+                    <div>
+                        <h3>2022</h3>
+                        <p>J'ai obtenu mon bac avec la mention assez bien.<br>
+                            J'avais les spécialité Physique-Chimie, Science Économie et Sociale en terminal, en plus de la spécialité <br>
+                            mathématique en 1ére.
+                        </p>
+                    </div>
 
-            
-        <!-- </section>  -->
-            
+                    <div>
+                        <h3>2022-aujourd'hui</h3>
+                        <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT A de Villeneuve d'Ascq.
+                        </p>
+                    </div>
+                </div>
+            <!-- </section>  -->
         </section>
 
         <!-- Section 4 : Projet -->
 
         <section id="Projet">
-            <h1>Projet</h1>
+            <section> 
+                <h1>Projet</h1>
 
-            <div class="test">
+                <div class="test">
 
-                <div class="Button">
-                    <button  onclick="changeProjet(1)"><!--Mini projet Agile--></button>
-                    <button  onclick="changeProjet(2)"><!--Application d’échange internationale--></button>
-                    <!-- <button  onclick="changeProjet(3)">Base de donnée</button> -->
-                    <button  onclick="changeProjet(4)"><!--Plateforme de covoiturage en ligne--></button>
-                    <!-- <button  onclick="changeProjet(5)">Jeu ludopédagogique</button> -->
-                </div>
-
-                <div class="projet">
-
-                    <div id="projet1" class="projet1 active">
-                        <div class="projetTexte">
-                            <h2>Mini projet Agile</h2>
-                            <h3>Semestre 3</h3>
-                            <p>Le Mini projet agile était un projet visant à nous apprendre les méthodes de développement agile.<br>
-                                On était en groupe de 4 ou 5 personne et l'on devait coder un jeu en groupe en 3 jours.<br>
-                            </p>
-                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
-                        </div>
-                        
-
-                        <img src="image/agile.png" alt="" class="imageProjet">
+                    <div class="Button">
+                        <button  id="button1" class="button1 active" onclick="changeProjet(1)"><!--Mini projet Agile--></button>
+                        <button  id="button2" class="button2" onclick="changeProjet(2)"><!--Application d’échange internationale--></button>
+                        <button  id="button3" class="button3" onclick="changeProjet(3)"><!--Plateforme de covoiturage en ligne--></button>
                     </div>
 
-                    <div id="projet2" class="projet2">
-                        <div class="projetTexte">
-                            <h2>Application d’échange internationale</h2>
-                            <h3>Semestre 2</h3>
-                            <p>L'application d'échange etait un projet de création d'application.<br>
-                                On devait crée une application qui permetter de mettre en lien des élèves de différents pays<br>
-                                dans un cadre d'un échange international.<br>
-                                Il y a un coté élève, qui doit remplir un formulaire pour s'inscrire.<br>
-                                Et il y a un coté professeur pour mettre en lien les élèves ayant le plus d'affinité.<br>
+                    <div class="projet">
 
-                            </p>
-                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
+                        <div id="projet1" class="projet1 active">
+                            <div class="projetTexte">
+                                <h2>Mini projet Agile</h2>
+                                <h3>Semestre 3</h3>
+                                <p>Le Mini projet agile était un projet visant à nous apprendre les méthodes de développement agile.<br>
+                                    On était en groupe de 4 ou 5 personne et l'on devait coder un jeu en groupe en 3 jours.<br>
+                                </p>
+                                <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
+                            </div>
+                            
+
+                            <img src="image/agile.png" alt="" class="imageProjet">
                         </div>
 
-                        <img src="image/app.png" alt="" class="imageProjet">
+                        <div id="projet2" class="projet2">
+                            <div class="projetTexte">
+                                <h2>Application d’échange internationale</h2>
+                                <h3>Semestre 2</h3>
+                                <p>L'application d'échange etait un projet de création d'application.<br>
+                                    On devait crée une application qui permetter de mettre en lien des élèves de différents pays<br>
+                                    dans un cadre d'un échange international.<br>
+                                    Il y a un coté élève, qui doit remplir un formulaire pour s'inscrire.<br>
+                                    Et il y a un coté professeur pour mettre en lien les élèves ayant le plus d'affinité.<br>
+
+                                </p>
+                                <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
+                            </div>
+
+                            <img src="image/app.png" alt="" class="imageProjet">
+                        </div>
+
+                        <div id="projet3" class="projet3">
+                            <div class="projetTexte">
+                                <h2>Plateforme de covoiturage en ligne</h2>
+                                <h3>Semestre 1</h3>
+                                <p>La plateforme de covoiturage en ligne est un projet de site Internet.<br>
+                                    Nous étions en groupe de 3 ou 4 et nous devions crée un site pour une entreprise fictive<br>
+                                    qui voulait que ses employés se déplace en covoiturage.<br>
+                                </p>
+                                <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
+                            </div>
+
+                            <img src="image/Thales.png" alt="" class="imageProjet">
+                        </div>
+
                     </div>
-
-                    <!-- <div id="projet3" class="projet3">
-                        <div class="projetTexte">
-                            <h2>Base de donnée</h2>
-                            <h3>Semestre 2</h3>
-                            <p>La base de donnée etait un projet d'analyse d'une base de donnée.<br>
-                                Nous avions un tableau de données brut sur les athlétes de jeux Olympique,<br>
-                                et nous devions crée une base de donnée afin de pouvoir répondre efficacement à<br>
-                                des question de statistique. <br>
-                            </p>
-                            <a href="" download=""><button>Télécharger le Projet</button></a>
-                        </div>
-
-                        <img src="" alt="" class="imageProjet">
-                    </div> -->
-
-                    <div id="projet4" class="projet4">
-                        <div class="projetTexte">
-                            <h2>Plateforme de covoiturage en ligne</h2>
-                            <h3>Semestre 1</h3>
-                            <p>La plateforme de covoiturage en ligne est un projet de site Internet.<br>
-                                Nous étions en groupe de 3 ou 4 et nous devions crée un site pour une entreprise fictive<br>
-                                qui voulait que ses employés se déplace en covoiturage.<br>
-                            </p>
-                            <!-- <a href="" download=""><button>Télécharger le Projet</button></a> -->
-                        </div>
-
-                        <img src="image/Thales.png" alt="" class="imageProjet">
-                    </div>
-
-                    <!-- <div id="projet5" class="projet5">
-                        <div class="projetTexte">
-                            <h2>Jeu ludopédagogique</h2>
-                            <h3>Semestre 1</h3>
-                            <p>Le jeu ludopédagogique est un projet en groupe de 2.<br>
-                                On devait crée un jeu ludique pour des enfants de primaires.<br>
-                                Nous avons donc crée un jeu mixant pokémon et les mathématiques.<br>
-                            </p>
-                            <a href="" download=""><button>Télécharger le Projet</button></a>
-                        </div>
-
-                        <img src="" alt="" class="imageProjet">
-                    </div> -->
 
                 </div>
-
-            </div>
-
+            </section> 
         </section>
         
     </body>

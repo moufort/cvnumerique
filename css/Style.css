@@ -11,7 +11,7 @@ body>section{
 section>h1{
     text-align: center;
     font-size: 300%;
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
 }
@@ -26,7 +26,7 @@ section>section>li{
 }
 
 body>section:nth-child(odd){
-    background-color: #02863f;
+    background-color: lightblue;
 }
 
 body>section:nth-child(even){

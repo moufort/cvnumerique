@@ -1,8 +1,11 @@
-#Projet>div{
+#Projet>section>div{
     display: absolute;
 }
+#Projet{
+    height: 75%;
+}
 
-.projet1, .projet2, .projet3, .projet4, .projet5{
+.projet1, .projet2, .projet3{
     display: none;
 }
 
@@ -47,6 +50,15 @@
 
 .Button>button:nth-child(3){
     background-image: url("../image/Thales.png"); 
+}
+
+.Button>.active{
+    opacity: 50%;
+}
+
+.Button>button:hover{
+    /* height: 50%; */
+    opacity: 80%;
 }
 
 /* Affichage description du projet */

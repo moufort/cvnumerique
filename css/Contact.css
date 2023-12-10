@@ -1,6 +1,7 @@
 footer{
     display: inline-block;
     width: 100%;
+    /* margin-top: 50% */
 }
 
 footer>h1{
