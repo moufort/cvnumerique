@@ -41,3 +41,7 @@ footer, header{
 /* .active{
     display: block;
 } */
+
+p{
+    font-size: 150%;
+}

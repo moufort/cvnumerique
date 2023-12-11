@@ -2,7 +2,14 @@
     display: absolute;
 }
 #Projet{
-    height: 75%;
+    height: 100%;
+}
+
+#Projet>section>p{
+    margin-left: 3.5cm;
+    width: 5cm;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .projet1, .projet2, .projet3{

@@ -4,6 +4,7 @@
 
 .formationTexte{
     margin-top: 2%;
+    
     display: flex;
     justify-content: space-around;
 }
@@ -14,8 +15,15 @@
 }
 
 .formationTexte>div>p{
+    margin-left: 30px;
     text-align: justify;
+    max-width: 80%;
 }
+
+/* .formationTexte>div{
+    display: flex;
+    justify-content: space-around;
+} */
 
 .parcours{
     display: flex;

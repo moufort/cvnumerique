@@ -52,25 +52,45 @@ SECTION GAUCHE
     border-top-left-radius: 20%;
 } */
 
+#Compétence{
+    height: 150%;
+}
+
+/* Compétence */
+
 .Comp>div{
     display: grid;
-    grid-template-columns: 20% 15% 40%;
+    grid-template-columns: 10% 10% 20% 15% 40%;
+}
+
+.Comp>div>img{
+    grid-column: 2;
+    width: 50px;
+    height: 50px;
 }
 
 .Comp>div>h2{
-    grid-column: 1;
+    grid-column: 3;
     text-align: right;
     font-size: x-large;
 }
 
 .Comp>div>p{
-    grid-column: 3;
+    grid-column: 5;
     text-align: center;
 }
 
+/* Qualité  */
+
 .Qual>div{
     display: grid;
-    grid-template-columns: 20% 40% 15% 20%;
+    grid-template-columns: 5% 40% 15% 20% 10% 10%;
+}
+
+.Qual>div>img{
+    grid-column: 5;
+    width: 50px;
+    height: 50px;
 }
 
 .Qual>div>h2{
