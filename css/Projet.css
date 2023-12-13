@@ -2,7 +2,7 @@
     display: absolute;
 }
 #Projet{
-    height: 100%;
+    height: 120%;
 }
 
 #Projet>section>p{
@@ -19,7 +19,6 @@
 .test{
     display: grid;
     grid-template-columns: 30% 4% 66%;
-    /* background-color: yellow; */
 }
 
 /* Button de choix de projet */
@@ -30,7 +29,6 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* background-color: blue; */
 }
 
 .Button>button{
@@ -39,10 +37,9 @@
     color: black;
     font-weight: bold;
     text-align: justify;
-    /* text-align: center; */
     font-size: larger;
     background-color: green;
-    
+    border-radius: 0;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -64,7 +61,6 @@
 }
 
 .Button>button:hover{
-    /* height: 50%; */
     opacity: 80%;
 }
 
@@ -74,7 +70,6 @@
     grid-column: 3;
     height: 100%;
     width: 100%;
-    /* background-color: blueviolet; */
 }
 
 .projet>.active{
@@ -88,7 +83,6 @@
     flex: 1;
     background-color: lightgray;
     border-radius: 15% 0% 0% 15%;
-    /* margin-right: 10px; */
 }
 
 /* Affichage image du projet */
@@ -113,9 +107,7 @@
 
 .projetTexte>a{
     position:static;
-    bottom: 0;
     width: 100%;
     height: 100%;
-    bottom: 0;
-    /* background-color: yellow; */
+    margin-left: 35%;
 }

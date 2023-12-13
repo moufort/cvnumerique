@@ -4,8 +4,12 @@ html{
 
 body>section{
     position: relative;
-    width: 100%;
     background-color: red;
+}
+
+body>section, footer{
+    width: 101.5%;
+    margin-left: -10px;
 }
 
 section>h1{
@@ -38,10 +42,11 @@ footer, header{
     color: white;
 }
 
-/* .active{
-    display: block;
-} */
-
 p{
     font-size: 150%;
+    text-align: justify;
+}
+
+h2{
+    font-size: 200%;
 }

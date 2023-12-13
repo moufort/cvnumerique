@@ -2,29 +2,6 @@
     margin-top: -40px;
 }
 
-.formationTexte{
-    margin-top: 2%;
-    
-    display: flex;
-    justify-content: space-around;
-}
-
-.formationTexte>div>h3{
-    text-align: center;
-    color: black;
-}
-
-.formationTexte>div>p{
-    margin-left: 30px;
-    text-align: justify;
-    max-width: 80%;
-}
-
-/* .formationTexte>div{
-    display: flex;
-    justify-content: space-around;
-} */
-
 .parcours{
     display: flex;
     justify-content: space-around;
@@ -42,10 +19,6 @@
     z-index: 2;
 }
 
-.active{
-    display: block;
-}
-
 .fleche{
     position:absolute;
     width: 95%;
@@ -61,4 +34,30 @@
     font-weight: bolder;
     top: 22.5px;
     width: 50px;
+}
+
+/* FORMATION TEXTE + IMAGES */
+
+.formationTexte{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formationTexte>div>h3{
+    text-align: center;
+    color: black;
+    font-size: 200%;
+}
+
+.formationTexte>div>p{
+    width: 70%;
+    margin-left: 100px;
+    text-align: justify;
+    max-width: 80%;
+}
+
+.formationTexte>div>img{
+    height: auto;
+    margin-left: 100px;
 }

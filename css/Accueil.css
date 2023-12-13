@@ -36,7 +36,7 @@
     bottom: 10%;
 }
 
-#Accueil>a>button{
+button{
     height: 5em;
     width: 12em;
     border-radius: 50px;
@@ -45,7 +45,7 @@
     color: white;    
 }
 
-#Accueil>a>button:hover{
+button:hover{
     background-color: white;
     color: black;
 }
