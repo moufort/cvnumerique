@@ -1,221 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>CV Numérique</title>
-        <link href="css/Style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CVNumerique</title>
+
         <link href="css/header.css" rel="stylesheet">
         <link href="css/Accueil.css" rel="stylesheet">
-        <link href="css/Competence.css" rel="stylesheet">
-        <link href="css/Formation.css" rel="stylesheet">
-        <link href="css/Projet.css" rel="stylesheet">
-        <link href="css/Contact.css" rel="stylesheet">
-        
-        <script src="javascript/ChangeProjet.js"></script>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/competence.css" rel="stylesheet">
+        <link href="css/formation.css" rel="stylesheet">
+            <!-- <link href="css/header.css" rel="stylesheet">
+            <link href="css/header.css" rel="stylesheet">-->
+            <link href="css/Contact.css" rel="stylesheet">
+            <link href="css/Projet.css" rel="stylesheet">  
+        <script src="src/app.tsx" type="module"></script>
     </head>
 
-    <!-- Navigation -->
-
-    <header>
-        <nav>
-            <a href="#Accueil"><img src="image/home.png" alt=""></a>
-            <div>
-                <a href="#Compétence">Compétences et Qualités</a>
-                <a href="#Formation">Formations</a>
-                <a href="#Projet">Projets</a>
-                <a href="#Contact">Contact</a>
-            </div>
-        </nav>
-    </header>
-        
     <body>
-
-        <!-- Section 1 : Accueil -->
-
-        <section id="Accueil">
-                <section>
-                    <h2>Quentin Moutté</h2>
-                    <p>Je suis actuellement étudiant en deuxième année de BUT informatique.</br>
-                        Je suis à la recherche d'un stage en développement d'applications et web.
-                    </p>
-                </section>
-
-                <img src="image/Photo Profil.jpg" alt="" class="profil">
-            
-            <a href="https://drive.google.com/file/d/15VOyltzMl0fippzHTARMtAqmM7wIypHD/view?usp=sharing" download="CV"><button>Obtenir mon CV</button></a>
-        </section>
-
-        <!-- Section 2 : Compétence et Qualité -->
-
-        <section id="Compétence">
-            <section class="Comp">
-                <h1>Compétences</h1>
-
-                <div>
-                    <img src="image/code.svg" alt="">
-                    <h2>Algorithmie</h2>
-                    <p>Je sais faire de l'algorithmie. En effet, durant ma formation, 
-                        j'ai appris à créer des programmes dans plusieurs langages tels que Java ou en C.
-                    </p>
-                </div>
-                <div>
-                    <img src="image/laptop-solid.svg" alt="">
-                    <h2>Développement Web</h2>
-                    <p>J'ai appris à utiliser plusieurs outils tels que le HTML et le CSS pour développer des sites web, 
-                        comme ce portfolio.
-                    </p>
-                </div>
-                <div>
-                    <img src="image/database-solid.svg" alt="">
-                    <h2>Base de Données</h2>
-                    <p>Je sais utiliser des bases de données telles que PostgreSQL, ayant appris des langages comme le SQL.
-                    </p>
-                </div>
-            </section>
-
-            <section class="Qual">
-                <h1>Qualités</h1>
-
-                <div>
-                    <p>J'ai appris à travailler en équipe grâce à mes projets à l'IUT. 
-                        En effet, nous étions généralement entre 2 et 5 personnes par projet.
-                    </p>
-                    <h2>Travail d'équipe</h2>
-                    <img src="image/people-group-solid.svg" alt="">
-                </div>
-                <div>
-                    <p>Je suis assez rigoureux, je tiens à produire un code fonctionnel et de qualité dans les délais qui me sont impartis.
-                    </p>
-                    <h2>Rigoureux</h2>
-                    <img src="image/rigueur.png" alt="">
-                </div>
-                <div>
-                    <p>Je m'adapte à la plupart des situations et 
-                        peux utiliser de nombreux langages de programmation selon les besoins.
-                    </p>
-                    <h2>Flexible</h2>
-                    <img src="image/flexibility.png" alt="">
-                </div>
-            </section>
-        </section>
-
-        <!-- Section 3 : Formation -->
-
-        <section id="Formation" class="Formation">
-            <!-- <section> -->
-                <h1>Formations</h1>
-                <div class="parcours">
-                    <div class="fleche"></div>
-                    <p>></p>
-                    
-                    <button  onclick="changeFormation(1)">BUT</button>
-                    <button  onclick="changeFormation(2)">BAC</button>
-                </div>
-
-                <div class="formationTexte">
-                    <div>
-                        <h3>2022-aujourd'hui</h3>
-                        <p>Je suis actuellement en 2éme année de BUT informatique à l'IUT de Lille.
-                        </p>
-
-                        <img src="image/logo iut lille.png" alt="">
-                    </div>
-
-                    <div>
-                        <h3>2022</h3>
-                        <p>J'ai obtenu mon bac avec la mention assez bien.<br>
-                            J'avais les spécialités Physique-Chimie, Sciences Économiques et Sociales en terminale, 
-                            en plus de la spécialité mathématiques en première.
-                        </p>
-
-                        <img src="image/stSo.webp" alt="">
-                    </div>
-                </div>
-            <!-- </section>  -->
-        </section>
-
-        <!-- Section 4 : Projet -->
-
-        <section id="Projet">
-            <section> 
-                <h1>Projets</h1>
-                <p>Liste projet :   </p>
-
-                <div class="test">
-
-                    <div class="Button">
-                        <button  id="button1" class="button1 active" onclick="changeProjet(1)"><!--Mini projet Agile--></button>
-                        <button  id="button2" class="button2" onclick="changeProjet(2)"><!--Application d’échange internationale--></button>
-                        <button  id="button3" class="button3" onclick="changeProjet(3)"><!--Plateforme de covoiturage en ligne--></button>
-                    </div>
-
-                    <div class="projet">
-
-                        <div id="projet1" class="projet1 active">
-                            <div class="projetTexte">
-                                <h2>Mini projet Agile</h2>
-                                <h3>Semestre 3</h3>
-                                <p>Le mini-projet agile visait à nous apprendre les méthodes de développement agile.<br>
-                                    Nous étions en groupe de 4 ou 5 personnes et devions coder un jeu en équipe en 3 jours.<br>
-                                    <br>
-                                    Outils : Java, méthode agile
-                                </p>
-                                <a href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19"><button>Télécharger projet</button></a>
-                            </div>
-                            
-
-                            <img src="image/agile.png" alt="" class="imageProjet">
-                        </div>
-
-                        <div id="projet2" class="projet2">
-                            <div class="projetTexte">
-                                <h2>Application d’échange internationale</h2>
-                                <h3>Semestre 2</h3>
-                                <p>L'application d'échange était un projet de création d'application.<br>
-                                    Nous devions créer une application permettant de mettre en lien des élèves de différents pays
-                                    dans le cadre d'un échange international.<br>
-                                    Il y avait un côté élève, où l'utilisateur devait remplir un formulaire pour s'inscrire,
-                                    et un côté professeur pour mettre en relation les élèves ayant le plus d'affinités.<br>
-                                    <br>
-                                    Outils : Java, Javafx, fxml, SQL
-                                </p>
-                                <a href="https://gitlab.univ-lille.fr/sae2.01-2.02/2023/A5"><button>Télécharger projet</button></a>
-                            </div>
-
-                            <img src="image/app.png" alt="" class="imageProjet">
-                        </div>
-
-                        <div id="projet3" class="projet3">
-                            <div class="projetTexte">
-                                <h2>Plateforme de covoiturage en ligne</h2>
-                                <h3>Semestre 1</h3>
-                                <p>La plateforme de covoiturage en ligne était un projet de site Internet.<br>
-                                    Nous étions en groupe de 3 ou 4, et nous devions créer un site pour une entreprise
-                                    qui souhaitait que ses employés se déplacent en covoiturage. <br>
-                                    <br>
-                                    Outils : HTML, CSS
-                                </p>
-                                <a href="https://gitlab.univ-lille.fr/quentin.moutte.etu/site-thales"><button>Télécharger projet</button></a>
-                            </div>
-
-                            <img src="image/Thales.png" alt="" class="imageProjet">
-                        </div>
-
-                    </div>
-
-                </div>
-            </section> 
-        </section>
-        
+        <section class="appContainer"></section>
     </body>
-
-    <!-- Footer : Contact -->
-
-    <footer id = "Contact">
-        <h1>Contact</h1>
-
-        <ul>
-            <p>Téléphone: 06 12 40 28 73</p>
-            <p>Mail: <a href="mailto:quentin.moutte.etu@univ-lille.fr">quentin.moutte.etu@univ-lille.fr</a></p>
-            <p>Linkedin: <a href="https://www.linkedin.com/in/quentin-moutt%C3%A9-20a1242a5/">Quentin Moutté</a></p>
-        </ul>
-    </footer>
 </html>
