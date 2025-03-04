@@ -4,8 +4,7 @@ export default function Accueil() {
 			<div className="Presentation">
                     <img src="/images/PP.jpg" alt="" className="PP"/>
                 <div className="textePresentation">
-                    {/* <h1>Salut, moi c'est Quentin</h1> */}
-                    <h1>POUR MADMAE DE CONNINK : Bonjour madame, j'ai eu un petit probléme avec mon site et j'ai perdu beaucoup de temps, je ne l'ai donc pas fni dimanche soir. <br />Le probléme étant réglé, je finis tout ça pour lundi 3 mars au soir. <br />Pour le coup c'est ma faute.</h1>
+                    <h1>Salut, moi c'est Quentin</h1>
                     <p>Je m'appelle Quentin Moutté et je suis actuellement étudiant en troisiéme année de BUT informatique parcours développement application et web.</p>
                 </div>  
             </div>

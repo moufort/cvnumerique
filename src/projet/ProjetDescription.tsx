@@ -16,7 +16,7 @@ export default function ProjetDescription({
                     <button>Accéder au projet</button>
                 </a>
             </div>
-            <img src={imgUrl} alt={name} />
+            <img src={imgUrl} />
         </div>
 	);
 }
