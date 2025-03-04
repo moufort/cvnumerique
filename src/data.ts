@@ -41,37 +41,37 @@ export const competenceData = [
 	{
 		name: "Java",
 		description: "Durant tout la durée de mes études a l'IUT, j'ai appris avec java a utilisé la programmation orienté objet que j'ai utilisé dans de nombreux projet.",
-		imgurl: "/images/icon.png",
+		imgurl: "/images/competence/java.png",
 	},
 	{
 		name: "Python",
 		description: "J'ai appris python afin de traiter et d'analyser des données, mais aussi pour traiter des images et réalisé des filtres lors de mes tps.",
-		imgurl: "/images/icon.png",
+		imgurl: "/images/competence/",
 	},
 	{
 		name: "Javascript",
 		description: "J'ai appris a utilisé le javascript afin de pouvoir modifier dynamiquement mes sites web.",
-		imgurl: "res/image/agile.png",
+		imgurl: "/images/competence/js.png",
 	},
 	{
 		name: "React",
 		description: "J'ai appirs a gérer des routeurs en react afin de mieux gerer la dynamique de la page. Ce portfolio est fait en react.",
-		imgurl: "res/image/agile.png",
+		imgurl: "/images/competence/react.png",
 	},
 	{
 		name: "Travail d'équipe",
 		description: "J'ai appris à travailler en équipe grâce à mes projets à l'IUT. En effet, nous étions généralement entre 2 et 5 personnes par projet.",
-		imgurl: "res/image/agile.png",
+		imgurl: "/images/competence/",
 	},
 	{
 		name: "Rigueur",
 		description: "Je suis assez rigoureux, je tiens à produire un code fonctionnel et de qualité dans les délais qui me sont impartis. ",
-		imgurl: "res/image/Thales.png",
+		imgurl: "/images/competence/",
 	},
 	{
 		name: "Flexible",
 		description: "Je m'adapte à la plupart des situations et peux utiliser de nombreux langages de programmation selon les besoins.",
-		imgurl: "res/image/Thales.png",
+		imgurl: "/images/competence/",
 	},
 ];
 
