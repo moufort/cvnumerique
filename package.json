@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "author": "Thomas Fritsch <thomas.fritsch@univ-lille.fr> (https://gitlab.univ-lille.fr/thomas.fritsch)",
-  "homepage": "https://gitlab.univ-lille.fr/react",
+  "homepage": "https://votre-utilisateur.github.io/",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^19.0.4",

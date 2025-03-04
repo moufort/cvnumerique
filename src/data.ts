@@ -10,7 +10,7 @@ export const projetData = [
 		name: "Doctolib",
 		description: `On a fait en duo un site de prise de rendez-vous, similaire a doctolib.
 		Le site a été crée grâce a spring-boot.`,
-		imgUrl: "images/projet/doctolib.png",
+		imgUrl: "./images/projet/doctolib.png",
 		projectUrl: "https://gitlab.univ-lille.fr/s5.01/gestion-rendez-vous/doctolate-front-end",
 	},
 	{
@@ -22,7 +22,7 @@ export const projetData = [
                                     
                                     Outils : Javascript, HTML, CSS, méthode agile 
                                     Savoir-être acquis : Organisation`,
-		imgUrl: "/images/projet/JSAE.png",
+		imgUrl: "./images/projet/JSAE.png",
 		projectUrl: "https://gitlab.univ-lille.fr/nathan.dorny.etu/jsae-sujet",
 	},
 	{
@@ -34,7 +34,7 @@ export const projetData = [
                                     
                                     Outils : Java, méthode agile 
                                     Savoir-être acquis : Travail d'équipe`,
-		imgUrl: "/images/projet/Chasse_au_monstre.png",
+		imgUrl: "./images/projet/Chasse_au_monstre.png",
 		projectUrl: "https://gitlab.univ-lille.fr/sae302/2023/H4_SAE3A",
 	},
 	{
@@ -44,7 +44,7 @@ export const projetData = [
                                     
                                     Outils : Java, méthode agile 
                                     Savoir-être acquis : Travail d'équipe`,
-		imgUrl: "/images/projet/agile.png",
+		imgUrl: "./images/projet/agile.png",
 		projectUrl: "https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19",
 	},
 	{
@@ -57,7 +57,7 @@ export const projetData = [
 
                                     Outils : Java, Javafx, fxml, SQL 
                                     Savoir-être acquis : Communication`,
-		imgUrl: "/images/projet/app.png",
+		imgUrl: "./images/projet/app.png",
 		projectUrl: "https://gitlab.univ-lille.fr/sae2.01-2.02/2023/A5",
 	},
 	{
@@ -68,7 +68,7 @@ export const projetData = [
                                     
                                     Outils : HTML, CSS 
                                     Savoir-être acquis : Créativité`,
-		imgUrl: "/images/projet/Thales.png",
+		imgUrl: "./images/projet/Thales.png",
 		projectUrl: "https://gitlab.univ-lille.fr/quentin.moutte.etu/site-thales",
 	},
 ];
@@ -77,47 +77,47 @@ export const competenceData = [
 	{
 		name: "Java",
 		description: "Durant tout la durée de mes études a l'IUT, j'ai appris avec java a utilisé la programmation orienté objet que j'ai utilisé dans de nombreux projet.",
-		imgurl: "/images/competence/java.png",
+		imgurl: "./images/competence/java.png",
 	},
 	{
 		name: "Python",
 		description: "J'ai appris python afin de traiter et d'analyser des données, mais aussi pour traiter des images et réalisé des filtres lors de mes tps.",
-		imgurl: "/images/competence/python.png",
+		imgurl: "./images/competence/python.png",
 	},
 	{
 		name: "Javascript",
 		description: "J'ai appris a utilisé le javascript afin de pouvoir modifier dynamiquement mes sites web.",
-		imgurl: "/images/competence/js.png",
+		imgurl: "./images/competence/js.png",
 	},
 	{
 		name: "React",
 		description: "J'ai appirs a gérer des routeurs en react afin de mieux gerer la dynamique de la page. Ce portfolio est fait en react.",
-		imgurl: "/images/competence/react.png",
+		imgurl: "./images/competence/react.png",
 	},
 	{
 		name: "NoSQL",
 		description: "J'ai appirs a gérer des routeurs en react afin de mieux gerer la dynamique de la page. Ce portfolio est fait en react.",
-		imgurl: "/images/competence/nosql.png",
+		imgurl: "./images/competence/nosql.png",
 	},
 	{
 		name: "SpringBoot",
 		description: "J'ai appirs a gérer des routeurs en react afin de mieux gerer la dynamique de la page. Ce portfolio est fait en react.",
-		imgurl: "/images/competence/spring.png",
+		imgurl: "./images/competence/spring.png",
 	},
 	{
 		name: "Travail d'équipe",
 		description: "J'ai appris à travailler en équipe grâce à mes projets à l'IUT. En effet, nous étions généralement entre 2 et 5 personnes par projet.",
-		imgurl: "/images/competence/people-group-solid.svg",
+		imgurl: "./images/competence/people-group-solid.svg",
 	},
 	{
 		name: "Rigueur",
 		description: "Je suis assez rigoureux, je tiens à produire un code fonctionnel et de qualité dans les délais qui me sont impartis. ",
-		imgurl: "/images/competence/rigueur.png",
+		imgurl: "./images/competence/rigueur.png",
 	},
 	{
 		name: "Flexible",
 		description: "Je m'adapte à la plupart des situations et peux utiliser de nombreux langages de programmation selon les besoins.",
-		imgurl: "/images/competence/flexibility.png",
+		imgurl: "./images/competence/flexibility.png",
 	},
 ];
 

@@ -2,7 +2,7 @@ export default function Accueil() {
 	return (
 		<div className="Accueil">
 			<div className="Presentation">
-                    <img src="/images/PP.jpg" alt="" className="PP"/>
+                    <img src="./images/PP.jpg" alt="" className="PP"/>
                 <div className="textePresentation">
                     <h1>Salut, moi c'est Quentin</h1>
                     <p>Je m'appelle Quentin Moutté et je suis actuellement étudiant en troisiéme année de BUT informatique parcours développement application et web.</p>
